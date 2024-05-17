@@ -826,6 +826,10 @@ video {
   border-width: 2px;
 }
 
+.border-t {
+  border-top-width: 1px;
+}
+
 .border-\[\#d5d5d5\] {
   --tw-border-opacity: 1;
   border-color: rgb(213 213 213 / var(--tw-border-opacity));
@@ -853,6 +857,11 @@ video {
 .border-b-\[\#999999\] {
   --tw-border-opacity: 1;
   border-bottom-color: rgb(153 153 153 / var(--tw-border-opacity));
+}
+
+.border-t-white {
+  --tw-border-opacity: 1;
+  border-top-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
 .bg-\[\#333333\] {
