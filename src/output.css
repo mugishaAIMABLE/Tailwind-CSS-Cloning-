@@ -766,6 +766,10 @@ video {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.grid-cols-5 {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -908,6 +912,34 @@ video {
 
 .bg-\[url\(https\:\/\/www\.up\.pt\/portal\/static\/images\/minerva_01\.png\)\] {
   background-image: url(https://www.up.pt/portal/static/images/minerva_01.png);
+}
+
+.bg-\[url\(\'\/\'\)\] {
+  background-image: url('/');
+}
+
+.bg-\[url\(\'\/src\/images\/\'\)\] {
+  background-image: url('/src/images/');
+}
+
+.bg-\[url\(\'\/src\/images\/Foot\'\)\] {
+  background-image: url('/src/images/Foot');
+}
+
+.bg-\[url\(\'\/src\/images\/Footer\.\'\)\] {
+  background-image: url('/src/images/Footer.');
+}
+
+.bg-\[url\(\'\/src\/images\/Footer\.\.webp\'\)\] {
+  background-image: url('/src/images/Footer..webp');
+}
+
+.bg-\[url\(\'\/src\/images\/Footer\.webp\'\)\] {
+  background-image: url('/src/images/Footer.webp');
+}
+
+.bg-\[url\(\'\/src\/images\/Footerimg\.png\'\)\] {
+  background-image: url('/src/images/Footerimg.png');
 }
 
 .bg-cover {
